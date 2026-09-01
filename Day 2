@@ -1,0 +1,19 @@
+"""Day {{day}}: {{title}}
+
+https://adventofcode.com/{{year}}/day/{{day}}
+"""
+
+
+def parse(data: str) -> list[str]:
+    """Turn the raw puzzle text into whatever shape both parts want."""
+    return data.splitlines()
+
+
+def part1(data: str):
+    lines = parse(data)
+    return None
+
+
+def part2(data: str):
+    lines = parse(data)
+    return None
